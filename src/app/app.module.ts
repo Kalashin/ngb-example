@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { AppComponent } from './app.component';
 import { DropdownBasicComponent } from './dropdown-basic/dropdown-basic.component';
 
@@ -10,6 +12,7 @@ import { DropdownBasicComponent } from './dropdown-basic/dropdown-basic.componen
     DropdownBasicComponent
   ],
   imports: [
+    NgbModule.forRoot(),
     BrowserModule
   ],
   providers: [],
